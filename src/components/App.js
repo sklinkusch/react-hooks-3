@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from '../images/logo.svg';
 import '../styles/App.css';
-import ClassRef from './ClassRef';
+// import ClassRef from './ClassRef';
+import RefHook from './ClassRefHook';
 // import Context from "./ContextApiHook";
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <ClassRef />
+        <RefHook />
       </header>
     </div>
   );
