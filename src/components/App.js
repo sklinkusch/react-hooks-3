@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../images/logo.svg';
 import '../styles/App.css';
-import Context from "./ContextApi";
+import Context from "./ContextApiHook";
 
 function App() {
   return (
